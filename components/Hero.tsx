@@ -29,7 +29,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-            className="font-heading font-extrabold text-5xl md:text-7xl leading-[1.1] mb-8 tracking-tight"
+            className="font-heading font-extrabold text-7xl md:text-9xl leading-[1.1] mb-8 tracking-tight"
           >
             Stack your <br />
             <span className={`${isDark ? 'text-[#D6D3D1]' : 'text-[#78716C]'}`}>
